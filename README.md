@@ -1,3 +1,5 @@
+# Syllabus
+
 ## [Module -1 (Introduction to R)](./Module%201)
 - The R Environment - Command Line Interface and Batch processing, R Packages, Variables, Data Types, Vectors- vector operations and factor vectors, List- operations, Data Frames, Matrices and arrays
 - Control Statements- Branching and looping - For loops, While loops, Controlling loops. Functions- Function as arguments, Named arguments 
