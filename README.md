@@ -24,7 +24,8 @@ Analyzing Data, Summary statistics, Statistical Tests- Continuous Data, Discrete
 -   Building linear models - model fitting, Predict values using models, Analyzing the fit
 -   Refining the model, Regression- types, Unusual observation and corrective measures, Comparison of models, Generalized linear models - Logistic Regression, Poisson Regression, Nonlinear least squares
 
-## Text Book 1. Joseph Adler, ” R in a Nutshell”, Second edition,O’reilly,2012
+## Text Book 
+1. Joseph Adler, "R in a Nutshell", Second edition,O’reilly,2012
 
 ## Reference Books
 
