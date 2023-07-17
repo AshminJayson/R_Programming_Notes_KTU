@@ -138,6 +138,7 @@ length(x) #Returns the length of vector x
 ```
 - var[index] operator returns value at index of values at indices
 - *Index is of type var or a single integer, where var can contain indices or a vector of Boolean values indicating each position*
+
 ```R
 vec[index] #Returns value at index or indices
 #if index < 0, exclude element at index abs(index)
@@ -146,6 +147,7 @@ which(cond) #Returns indices that satisfy condition
 #Assigments
 vec[index] = value
 #If index > length(vec), the length will update to index and the other values will be set as NA
+
 ```
 #### Vector Operations
 Follows a *vector/element by element*  approach to performing operations 
@@ -156,10 +158,10 @@ For vectors with n != m, the result would be of length max(n, m)
 
 ```R
 #Conditional testing
-
 #condition = x < y ; x and y are vectors
 any(condition) # Returns TRUE if value in the vector or condition is true
 all() # Returns TRUE if all values in the vector satisfy the condition
+
 ```
 
 ```R

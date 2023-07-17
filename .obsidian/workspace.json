@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Module_2/README.md",
+                "file": "Module_1/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Module_2/README.md",
+                "file": "Module_1/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Module_2/README.md",
+                "file": "Module_1/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Module_2/README.md"
+                "file": "Module_1/README.md"
               }
             }
           }
@@ -149,11 +149,11 @@
   "active": "e1dfa44a562f7640",
   "lastOpenFiles": [
     "README.md",
+    "Module_2/README.md",
     "Module_1/README.md",
     "Module_1",
     "Module1.md",
     "Module 2.md",
-    "Syllabus.pdf",
-    "Module_2/README.md"
+    "Syllabus.pdf"
   ]
 }
