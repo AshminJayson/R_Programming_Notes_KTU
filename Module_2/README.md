@@ -20,6 +20,7 @@ read.xlsx(filepath, noOfWorksheets, colClasses)
 library(Hmisc)
 spss.get(filepath, use.value.labels=TRUE)
 #use.value.labels tells R to use factors for variables with value labels
+
 ```
 
 - Reading lines from *stdin* or other files
@@ -28,17 +29,20 @@ readLines(con=stdin(), n=-1L, ok=TRUE|FALSE, warn=TRUE|FALSE, encoding="unknown"
 
 #warn to warn for absence of EOL
 #ok to warn for lower number of lines present
+
 ```
 
 - Reading data using scan
 ```R
 scan(file, what=double(0), nmax=-1, n=-1, sep="", quote, skip, nlines)
 
-#nmax number of lines read at a time
+#nmax number of lines read at a time 
 #n total number of lines
+
 ```
 
-![[Pasted image 20230717130845.png]]
+![](./scan.png)
+
 ## Data Exporting
 ```R
 write.table(x, filepath, append=FALSE|TRUE, quote, sep=" ", eol="\n", na, dec, row.names=TRUE|FALSE, col.names=TRUE|FALSE, qmethod=c("escape", "double"))
