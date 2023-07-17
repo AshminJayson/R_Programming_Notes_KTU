@@ -1,0 +1,4 @@
+- min,mean,max operations
+- ``` na.rm= TRUE ignores NA values```
+- trim removes fraction of values from the observations
+	- ![[Pasted image 20230717170035.png]]
