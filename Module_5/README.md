@@ -19,8 +19,11 @@
 5. Use `predict(lm, df)` to predict the values for a new set of predictor variables 
   
 ## Simple Linear Regression
+
 $y = ax + b$
-![[./LinearRegression.png]]
+
+![](./LinearRegression.png)
+
 $a=ybar - b*xbar$
 
 ```R
@@ -122,7 +125,9 @@ glm(formula, data, family=binomial(link="logit"))
 
 ## Poisson Regression
 - Prediction of the response variable from the counts for one or more explanatory variables
+
 ## Nonlinear Least Squares
+
 ```R
 nlm(formula, data, start, control=nls.control(), algorithm=c("default", "plinear", "port"), trace=FALSE,subset,weights,na.action,model=FALSE,lower=-Inf,upper=Inf,...)
 
