@@ -106,6 +106,7 @@ cat(var) #Print variable value
 ### Vectors
 - Ordered collection of basic data types
 - Homogeneous
+
 #### Creating Vectors
 ~~~R
 vector(datatype, length = n) # Creates vector of length n of type datatype
@@ -205,6 +206,7 @@ x%o%y or tcrossprod(x, y) #Outer product
 ### Factors
 - Used to represent categorical data
 - Can be assumed to be an integer vector having a label
+
 #### Creation
 ```R
 x = factor(z) #z = Any vector creation method with character values
@@ -217,19 +219,25 @@ x = ordered(z) #or
 x = factor(z, orderered = TRUE by default)
 #Ordered factor however sorts all results as per level hence it's easier to interpret
 ```
+
 ##### Tapply()
+
 ```R
-tappy(x, index, func)
+tapply(x, index, func)
 #Here index usually represent a particular subset of factors onto whom the function is to be applied
 ```
 ### Character Vectors
 	Escape sequences are \t, \b, \n etc where \ is the escape character
+
 ```R
 paste(x,y..., sep = separator) #Coerces/combines all values onto a character vector
 ```
+
 ### Matrices
 - Multidimensional collection of data
+
 #### Creating matrices
+
 ```R
 matrix(data, nrow, ncol, byrow, dimnames=list(rowname, colnames))
 #byrow = FALSE would arrange the items in column major and row major ow
@@ -253,11 +261,13 @@ rbind(arg1, arg2,...)
 ```
 #### Accessing matrix elements
 > Matrix elements beyond length of rows or columns cannot be accessed  or assigned unlike vectors
+
 ```R
 mat[x,y] #Returns all elements in cell x,y
 mat[x,] #Returns all elements in row x
 mat[,y] #Returns all elements in col y
 ```
+
 #### Matrix operations
 ```R
 t(mat) # Returns transpose of the matrix
@@ -277,6 +287,7 @@ colSums(mat)
 rowMeans(mat)
 colMeans(mat)
 ```
+
 #### Applying functions to matrices
 ```R
 apply(mat, margin, func)
@@ -297,6 +308,7 @@ array(vector=c(), ?dimensions=c(), ?dimnames=c())
 
 ### Lists
 - Heterogeneous collection of data
+
 #### Creation of lists
 ```R
 list(values)
@@ -304,6 +316,7 @@ list(values)
 #Assigning names
 names(l) = namearray
 ```
+
 #### Accessing elements
 ```R
 l[index] #Allows for regular accessing
@@ -312,6 +325,7 @@ l[index] #Allows for regular accessing
 l$name #Returns subset
 l[name]
 ```
+
 #### Operations on list
 ```R
 #Lists do not support arithmetic operations 
@@ -321,8 +335,10 @@ unlist(l) #Returns vector from list
 c(list1, list2,...)
 list(list1, list2,...)
 ```
+
 ### Data Frames
 - Matrices with different typed column values
+
 #### Creating Data Frames
 ```R
 data.frame(col1, col2,...)
@@ -336,6 +352,7 @@ rbind(df, ...)
 cbind(df, ...)
 
 ```
+
 #### Accessing elements
 ```R
 
@@ -350,6 +367,7 @@ subset(df, condition) #Returns a subset of the dataframe satisfying condition
 
 edit(df) #Opens up df in visual editor mode
 ```
+
 #### Operations on Data frames
 ```R
 table(df$col1, df$col2) #Cross tabulates the given columns
@@ -371,11 +389,13 @@ order(df, decreasing=TRUE|FALSE, na.last=TRUE|FALSE, method=c("auto", "shell", "
 #Removing missing values
 complete.cases(df)
 ```
+
 #### Exporting data
 ```R
 wite.csv(df, file=filename)
 write.table(df, file=filename,?row.names=TRUE|FALSE)
 ```
+
 
 ## Control Flow
 ### Loops
@@ -385,6 +405,7 @@ for (iter in c()) {
 	#Operation
 }
 ```
+
 #### While loops
 ```R
 i <- 1
@@ -393,11 +414,13 @@ while(cond) {
 update(i)
 }
 ```
+
 ### Controlling Loops
 ```R
 break #Terminates loop
 next #Equivalent to continue
 ```
+
 ### Functions as arguments and names arguments
 >Treated as First class members and are also stored as variables
 
