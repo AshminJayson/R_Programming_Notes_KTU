@@ -1,7 +1,7 @@
-## [Module -1 (Introduction to R)](https://github.com/AshminJayson/R_Programming_Notes_KTU/blob/main/Module%201/README.md)
+## [Module -1 (Introduction to R)](https://github.com/AshminJayson/R_Programming_Notes_KTU/blob/main/Module%201)
 - The R Environment - Command Line Interface and Batch processing, R Packages, Variables, Data Types, Vectors- vector operations and factor vectors, List- operations, Data Frames, Matrices and arrays
 - Control Statements- Branching and looping - For loops, While loops, Controlling loops. Functions- Function as arguments, Named arguments 
-## [Module -2(Reading and writing data)](https://github.com/AshminJayson/R_Programming_Notes_KTU/blob/main/Module%202/README.md) 
+## [Module -2(Reading and writing data)](https://github.com/AshminJayson/R_Programming_Notes_KTU/blob/main/Module%202) 
 - Importing data from Text files and other software, Exporting data, importing data from databases- Database Connection packages, Missing Data - NA, NULL 
 - Combining data sets, Transformations, Binning Data, Subsets, summarizing functions. Data Cleaning, Finding and removing Duplicates, Sorting. 
 ## Module -3 (Statistics with R) 
