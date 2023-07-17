@@ -1,2 +1,2 @@
-theme: jekyll-theme-merlot
-remote_theme: jekyll-theme-merlot
+theme: https://github.com/just-the-docs/just-the-docs
+remote_theme: https://github.com/just-the-docs/just-the-docs
