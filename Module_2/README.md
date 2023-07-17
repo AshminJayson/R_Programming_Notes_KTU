@@ -3,10 +3,9 @@
 
 - Data can be imported from _text files/csv_ files using `read.table()`
 ```R
-
-read.table(filepath, header=FALSE|TRUE, sep="", quote="", skip, row.names=colinfile(or)c(), col.names=c(), na.string=c(), colClasses=c(), stringsAsFactors=TRUE|FALSE, text[empty if filepath is given]))
-
-# quote is a special delimiter for strings containing special characters				# na.strings =c() lists values to be converted as NA
+read.table(filepath, header=FALSE|TRUE, sep="", quote="", skip, row.names, col.names, na.string, colClasses, stringAsFactors=TRUE|FALSE, ??text)
+#quote describes what to do for strings with special characters
+#na.string describes value to be converted to NA
 ```
 
 - Data can be imported from _xlsx_ files through the xlsx library
@@ -32,16 +31,15 @@ readLines(con=stdin(), n=-1L, ok=TRUE|FALSE, warn=TRUE|FALSE, encoding="unknown"
 - Reading data using scan
 ```R
 scan(file, what=double(0), nmax=-1, n=-1, sep="", quote, skip, nlines)
-
 #nmax number of lines read at a time 
 #n total number of lines
-
 ```
 
 ![](./scan.png)
 
 
 ## Data Exporting
+
 ```R
 write.table(x, filepath, append=FALSE|TRUE, quote, sep=" ", eol="\n", na, dec, row.names=TRUE|FALSE, col.names=TRUE|FALSE, qmethod=c("escape", "double"))
 
