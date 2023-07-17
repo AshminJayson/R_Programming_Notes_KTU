@@ -1,10 +1,10 @@
 # Syllabus
 
-## [Module -1 (Introduction to R)](./Module%202) 
+## [Module -1 (Introduction to R)](Module_1/README.md) 
 - The R Environment - Command Line Interface and Batch processing, R Packages, Variables, Data Types, Vectors- vector operations and factor vectors, List- operations, Data Frames, Matrices and arrays 
 - Control Statements- Branching and looping - For loops, While loops, Controlling loops. Functions- Function as arguments, Named arguments 
 
-## [Module -2 (Reading and writing data)](./Module%202) 
+## [Module -2 (Reading and writing data)](/Module_2/README.md) 
 - Importing data from Text files and other software, Exporting data, importing data from databases- Database Connection packages, Missing Data - NA, NULL 
 - Combining data sets, Transformations, Binning Data, Subsets, summarizing functions. Data Cleaning, Finding and removing Duplicates, Sorting. 
 
