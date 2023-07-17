@@ -2,18 +2,23 @@
 
 ## [Module -1 (Introduction to R)](./Module%201)
 - The R Environment - Command Line Interface and Batch processing, R Packages, Variables, Data Types, Vectors- vector operations and factor vectors, List- operations, Data Frames, Matrices and arrays
-- Control Statements- Branching and looping - For loops, While loops, Controlling loops. Functions- Function as arguments, Named arguments 
+- Control Statements- Branching and looping - For loops, While loops, Controlling loops. Functions- Function as arguments, Named arguments
+
 ## [Module -2(Reading and writing data)](./Module%202) 
 - Importing data from Text files and other software, Exporting data, importing data from databases- Database Connection packages, Missing Data - NA, NULL 
 - Combining data sets, Transformations, Binning Data, Subsets, summarizing functions. Data Cleaning, Finding and removing Duplicates, Sorting. 
+
 ## Module -3 (Statistics with R) 
 Analyzing Data, Summary statistics, Statistical Tests- Continuous Data, Discrete Data, Power tests, Common distributions- type arguments. Probability distributions, Normal distributions
+
 ## Module -4 (Data Visualization) 
 - R Graphics- Overview, Customizing Charts, Graphical parameters, Basic Graphics functions,
 - Lattice Graphics - Lattice functions, Customizing Lattice Graphics, Ggplot. 
+
 ## Module - 5 (Regression Models) 
 - Building linear models - model fitting, Predict values using models, Analyzing the fit
 - Refining the model, Regression- types, Unusual observation and corrective measures, Comparison of models, Generalized linear models - Logistic Regression, Poisson Regression, Nonlinear least squares 
+
 
 ## Text Book 1. Joseph Adler, ” R in a Nutshell”, Second edition,O’reilly,2012 
 ## Reference Books 
