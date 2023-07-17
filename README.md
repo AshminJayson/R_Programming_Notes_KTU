@@ -15,7 +15,7 @@ Analyzing Data, Summary statistics, Statistical Tests- Continuous Data, Discrete
 - R Graphics- Overview, Customizing Charts, Graphical parameters, Basic Graphics functions,
 - Lattice Graphics - Lattice functions, Customizing Lattice Graphics, Ggplot. 
 
-## Module - 5 (Regression Models) 
+## [Module - 5 (Regression Models)](/Module_5/README.md)
 - Building linear models - model fitting, Predict values using models, Analyzing the fit
 - Refining the model, Regression- types, Unusual observation and corrective measures, Comparison of models, Generalized linear models - Logistic Regression, Poisson Regression, Nonlinear least squares 
 
