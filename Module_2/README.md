@@ -2,12 +2,13 @@
 ## Data Importing
 
 - Data can be imported from _text files/csv_ files using `read.table()`
+  
 ```R
-read.table(filepath, header=FALSE|TRUE, sep="", quote="", skip, row.names=colinfile(or)c(), col.names=c(), na.string=c(), colClasses=c(), stringsAsFactors=TRUE|FALSE, text[empty if filepath is given])
 
-#quote is a special delimiter for strings containing special characters, na.strings =c() lists values to be converted as NA
+read.table(filepath, header=FALSE|TRUE, sep="", quote="", skip, row.names=colinfile(or)c(), col.names=c(), na.string=c(), colClasses=c(), stringsAsFactors=TRUE|FALSE, text[empty if filepath is given]))
+
+# quote is a special delimiter for strings containing special characters				# na.strings =c() lists values to be converted as NA
 ```
-
 - Data can be imported from _xlsx_ files through the xlsx library
 ```R
 library(xlsx)
