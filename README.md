@@ -10,11 +10,11 @@
 -   Importing data from Text files and other software, Exporting data, importing data from databases- Database Connection packages, Missing Data - NA, NULL
 -   Combining data sets, Transformations, Binning Data, Subsets, summarizing functions. Data Cleaning, Finding and removing Duplicates, Sorting.
 
-## Module -3 (Statistics with R)
+## [Module -3 (Statistics with R)](Module_3/Module_3.md)
 
 Analyzing Data, Summary statistics, Statistical Tests- Continuous Data, Discrete Data, Power tests, Common distributions- type arguments. Probability distributions, Normal distributions
 
-## [Module -4 (Data Visualization)](Module_4/README.md)
+## Module -4 (Data Visualization)
 
 -   R Graphics- Overview, Customizing Charts, Graphical parameters, Basic Graphics functions,
 -   Lattice Graphics - Lattice functions, Customizing Lattice Graphics, Ggplot.

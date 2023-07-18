@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Module_5/README.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Module_5/README.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Module_5/README.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Module_5/README.md"
+                "file": "README.md"
               }
             }
           }
@@ -148,7 +148,10 @@
   },
   "active": "164f4ae39f07c18d",
   "lastOpenFiles": [
+    "Module_3/Module_3.md",
     "README.md",
+    "Module_3.md",
+    "Module_5/README.md",
     "Module_5/README.md.md",
     "_config.yml",
     "Gemfile",
