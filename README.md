@@ -25,7 +25,7 @@
 -   Building linear models - model fitting, Predict values using models, Analyzing the fit
 -   Refining the model, Regression- types, Unusual observation and corrective measures, Comparison of models, Generalized linear models - Logistic Regression, Poisson Regression, Nonlinear least squares
 
-## [Solved QP][(SampleQP)]
+## [Solved QP](SampleQP)
 
 ## Text Book
 
