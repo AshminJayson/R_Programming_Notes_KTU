@@ -60,8 +60,12 @@ poly(x, ..., degree=n, coefs=NULL, raw=FALSE)
 ## Cox Proportional Hazards & Time Series
 - Prediction of time
 ## Resistant Regression
-
 	Done by using least median squares (LMS) or least trimmed squares (LTS) estimators
+
+```R
+lqs(formula, data, method=c("LMS", "LTS"))
+```
+## Robust Regression
 
 ```R
 rlm(formula, data, weights, subset, na.action, method=c("M", "MM", "model.frame"), wt.method=c("inv.var", "case"), model=TRUE, x.ret = TRUE, y.ret = FALSE, contrasts = NULL)
@@ -156,7 +160,7 @@ glm(formula, data, family=binomial(link="logit"))
 - Prediction of the response variable from the counts for one or more explanatory variables
 ## Nonlinear Least Squares
 ```R
-nlm(formula, data, start, control=nls.control(), algorithm=c("default", "plinear", "port"), trace=FALSE,subset,weights,na.action,model=FALSE,lower=-Inf,upper=Inf,...)
+nlm(formula, data, start, control=nls.control(), algorithm=c("default", "plinear", "port"),trace=FALSE,subset,weights,na.action,model=FALSE,lower=-Inf,upper=Inf,...)
 
 #start contains starting estimates for the fit
 #control contains list of arguments for controlling the fitting process

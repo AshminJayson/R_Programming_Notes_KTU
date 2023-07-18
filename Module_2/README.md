@@ -160,9 +160,13 @@ sample(x, size, replace=FALSE, prob=c())
 ## Aggregation and Summarization
 ```R
 tapply(x, index, fun, simplify=TRUE)
+#Indexis the dataset to group x by
 #simply = TRUE returns scalar array else list
 
 aggregate(x, y, fun)
+# x is the dataset to apply function to
+# y is the dataset to group x by
+# fun is the aggregation function
 ```
 ## Data Cleaning
 ```R

@@ -12,7 +12,8 @@
 
 ## [Module -3 (Statistics with R)](Module_3)
 
-Analyzing Data, Summary statistics, Statistical Tests- Continuous Data, Discrete Data, Power tests, Common distributions- type arguments. Probability distributions, Normal distributions
+- Analyzing Data, Summary statistics, Statistical Tests- Continuous Data, Discrete Data, Power
+- Common distributions-type arguments. Probability distributions, Normal distributions
 
 ## Module -4 (Data Visualization)
 
