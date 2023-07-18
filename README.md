@@ -12,8 +12,8 @@
 
 ## [Module -3 (Statistics with R)](Module_3)
 
-- Analyzing Data, Summary statistics, Statistical Tests- Continuous Data, Discrete Data, Power
-- Common distributions-type arguments. Probability distributions, Normal distributions
+-   Analyzing Data, Summary statistics, Statistical Tests- Continuous Data, Discrete Data, Power
+-   Common distributions-type arguments. Probability distributions, Normal distributions
 
 ## Module -4 (Data Visualization)
 
@@ -24,6 +24,8 @@
 
 -   Building linear models - model fitting, Predict values using models, Analyzing the fit
 -   Refining the model, Regression- types, Unusual observation and corrective measures, Comparison of models, Generalized linear models - Logistic Regression, Poisson Regression, Nonlinear least squares
+
+## [Solved QP][(SampleQP)]
 
 ## Text Book
 
