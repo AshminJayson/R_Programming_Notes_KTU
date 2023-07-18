@@ -92,11 +92,43 @@ rlm(formula, data, weights, subset, na.action, method=c("M", "MM", "model.frame"
 | influence() | Describes the influence of various features |
 | influence.measures() | Describes the influence in a easier to interpret way |
 
+## Analyzing the fit of the model
+- Residuals-difference between predicted values and the observed
+```
+R^2= explained variation of model / total variation of model
+```
+for models that fit the data well the R^2 will be near 0
+1. `residuals(object, ...)`: Computes the vector of residuals from a fitted model object.
+    
+2. `fitted(object, ...)`: Calculates the vector of fitted values from a fitted model object.
+    
+3. `predict(object, newdata, ...)`: Generates predictions using a fitted model object and new data.
+    
+4. `confint(object, parm, ...)`: Computes confidence intervals for the coefficients in the fitted model object.
+    
+5. `influence(model, ...)`: Calculates the influence of different parameters in the fitted model object.
+    
+6. `vcov(object, ...)`: Computes the variance-covariance matrix from the linear model object.
+
+
+## Visualizing the data
+```R
+model<- lm(y ~ x)
+plot(y,x,abline(lm(x~y)))
+```
+`plot(model)` shows
+1. Residuals vs. fitted values: Shows the relationship between residuals and predicted values to identify patterns or deviations.
+2. Normal Q-Q plot: Compares the residuals to the expected values under a normal distribution assumption.
+3. Scale-location plot: Displays the square root of the absolute residuals against fitted values to assess variance homogeneity.
+4. Residuals vs. leverages plot: Examines the relationship between standardized residuals and leverage values.
 
 ## Refitting a model
 ```R
 lmnew <- update(lm, formula)
 ```
+
+## detect influential points
+- outliers - detected based on finding the cook.distance between each of them 
 
 ## Assumptions of Least Squares Regression
 1. Linearity - Relation between response and predictor is linear
