@@ -32,7 +32,9 @@ Steps in hypothesis testing
 ### Continuous Data
 #### Normal Distribution Based Tests
 	Can only be applied to normalized data
+
 ##### Comparing Means
+
 ###### T Test
 
 ```R
@@ -48,10 +50,12 @@ t.test(x, y, alternative=c("two.sides", "less", "greater"), mu=0, paired=FALSE, 
 2. If groups come from two difference populations perform a two sample t test
 3. If there is one group being compared to a standard value perform a one sample t test
 4. If the check is to only find if one population is different from another perform a *two tailed t test* if the check if for mean difference perform *one tailed t test*
+
 ##### Comparing paired data
 	Done by assigning a value of y as well as paired=TRUE
 
 ##### Comparing Variances of two populations
+
 ###### F test
 
 ```R
@@ -59,8 +63,8 @@ var.test(x, y, ratio=11, alternative=c("two.sided", "less", "greater", conf.leve
 ```
 
 ##### Comparing means across more that two groups
-	Anova test is performed to calculate the variation of means across more that three groups
-	Anova test assumes that the variance is equal across groups this can be compared using oneway.test(formula, data, subset, na.action, var.equal=FALSE)
+- Anova test is performed to calculate the variation of means across more that three groups
+- Anova test assumes that the variance is equal across groups this can be compared using oneway.test(formula, data, subset, na.action, var.equal=FALSE)
 
 ```R
 aovObj = aov(formula, data, projections=FALSE, qr=TRUE, constrasts=NULL,...)
@@ -171,6 +175,7 @@ friedman.test(y, groups, blocks,...)
 
 ## Power Tests
 1. Very useful in designing experiment with emphasis on estimation of margin of difference needed in groups for the result to be statistically significant.
+
 ### T test Design
 
 ```R
