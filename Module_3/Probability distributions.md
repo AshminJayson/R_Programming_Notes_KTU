@@ -1,0 +1,2 @@
+[[poisson]]
+[[binomial distribution]]
