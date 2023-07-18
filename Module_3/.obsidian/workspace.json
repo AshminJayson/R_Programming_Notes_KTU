@@ -1,0 +1,241 @@
+{
+  "main": {
+    "id": "c48e4285f6bebdf6",
+    "type": "split",
+    "children": [
+      {
+        "id": "a630e87c58f310ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0ac0e3d405382aa5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Module 4.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c0a257f358012030",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Module 4.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "83fee90b7bedfb8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "poisson.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b76fca1a1771cdff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Power tests.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3225fef18c8db91e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Probability distributions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3c71a89e2f5c860c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "binomial distribution.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9e6c9ab59218d495",
+    "type": "split",
+    "children": [
+      {
+        "id": "5411fac0e961b136",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8f402431154ea709",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e1b51a3c0bf259f9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "afa0c239a8d3d2ec",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "0d19343345d37de7",
+    "type": "split",
+    "children": [
+      {
+        "id": "0e07a709db392728",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f4c2df745e91497e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Module 4.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d54a769c438173f5",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Module 4.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "098ccbe5603cb438",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "07c522cb8c390f55",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Module 4.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "c0a257f358012030",
+  "lastOpenFiles": [
+    "Normal distributions.md",
+    "Module 4.md",
+    "Probability distributions.md",
+    "binomial distribution.md",
+    "poisson.md",
+    "Power tests.md",
+    "images/Pasted image 20230718013217.png",
+    "images/Pasted image 20230718013123.png",
+    "images/Pasted image 20230718011845.png",
+    "anova test design.md",
+    "proportion test design.md",
+    "t-test design.md",
+    "Experimental design example.md",
+    "images/Pasted image 20230718001806.png",
+    "Discrete Data.md",
+    "images/Pasted image 20230717231357.png",
+    "images/Pasted image 20230717230922.png",
+    "Continuous Data.md",
+    "Non-parametric tests.md",
+    "images/Pasted image 20230717224015.png",
+    "images/Pasted image 20230717223947.png",
+    "images/Pasted image 20230717223858.png",
+    "images/Pasted image 20230717223749.png",
+    "Normal Distribution- based Tests.md",
+    "Summary statistics.md",
+    "Statistical Tests.md",
+    "Analyzing Data.md",
+    "images"
+  ]
+}
