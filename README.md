@@ -15,7 +15,7 @@
 - Analyzing Data, Summary statistics, Statistical Tests- Continuous Data, Discrete Data, Power
 - Common distributions-type arguments. Probability distributions, Normal distributions
 
-## Module -4 (Data Visualization)
+## [Module -4 (Data Visualization)[(Module_4)
 
 -   R Graphics- Overview, Customizing Charts, Graphical parameters, Basic Graphics functions,
 -   Lattice Graphics - Lattice functions, Customizing Lattice Graphics, Ggplot.
