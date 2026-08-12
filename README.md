@@ -1,3 +1,5 @@
+
+
 # Syllabus
 
 ## [Module -1 (Introduction to R)](Module_1)
@@ -35,4 +37,5 @@
 
 1. Jared P Lander, R for Everyone- Advanced analytics and graphics, Addison Wesley data analytics series, Pearson
 2. Norman matloff, The art of R programming, A Tour of Statistical, Software Design, O’reilly
-3. Robert Kabacoff, R in action, Data analysis and graphics with R, Manning 4. Garret Grolemund, Hands-on programming with R, Write your own functions and simulations, O’reilly
+3. Robert Kabacoff, R in action, Data analysis and graphics with R, Manning
+4. Garret Grolemund, Hands-on programming with R, Write your own functions and simulations, O’reilly
